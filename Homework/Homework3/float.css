@@ -1,9 +1,10 @@
-body {
-    margin: 0;
-    width: 750px;
+.bigBlock {
+    background: black;
+    width: 700px;
+    height: 500px;
 }
 
-.longBlock {
+.long {
     margin-left: 5px;
     width: 690px;
     height: 70px;
@@ -11,26 +12,12 @@ body {
     float: left;
 }
 
-.bigBlock {
-    width: 700px;
-    height: 500px;
-    background: black;
-}
-
-.colorful {
-    margin-left: -35px;
-    width: 750px;
-}
-
-li {
-    list-style: none;
-    float: left;
-}
-
 .first {
+    margin-left: 5px;
     height: 355px;
     width: 160px;
     background: red;
+    float: left;
 }
 
 .second {
@@ -38,16 +25,28 @@ li {
     height: 360px;
     width: 190px;
     background: #03C03C;
+    float: left;
 }
 
 .third {
     height: 355px;
     width: 200px;
     background: dodgerblue;
+    float: left;
 }
 
 .fourth {
     height: 355px;
     width: 140px;
     background: black;
+    float: left;
 }
+
+.long2 {
+    margin-left: 5px;
+    width: 690px;
+    height: 70px;
+    background: orange;
+    float: left;
+}
+
