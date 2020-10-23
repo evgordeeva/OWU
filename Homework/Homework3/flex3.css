@@ -1,10 +1,15 @@
 .bigBlock {
-    background: black;
+    display: flex;
+    height: 495px;
     width: 700px;
+    background: black;
+    flex-wrap: wrap;
     padding: 5px;
 }
 
 .long {
+    align-self: flex-start;
+    width: 700px;
     height: 70px;
     background: orange;
 }
@@ -13,33 +18,29 @@
     height: 355px;
     width: 160px;
     background: red;
-    float: left;
 }
 
 .second {
     height: 355px;
     width: 190px;
     background: #03C03C;
-    float: left;
 }
 
 .third {
     height: 355px;
     width: 200px;
     background: dodgerblue;
-    float: left;
 }
 
 .fourth {
     height: 355px;
     width: 140px;
     background: black;
-    float: left;
 }
 
 .long2 {
+    align-self: flex-end;
+    width: 700px;
     height: 70px;
     background: orange;
-    clear: both;
 }
-
