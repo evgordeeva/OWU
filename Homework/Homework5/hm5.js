@@ -151,7 +151,7 @@ document.write(login2); */
 
 let lastName = prompt('Прізвище'); //Гордєєва
 let firstName = prompt('Ім^я'); //Євгенія
-let middleName = prompt('По-батькові'); //Іванівна */
+let middleName = prompt('По-батькові'); //Іванівна
 
 
 /*console.log(lastName);
@@ -167,16 +167,16 @@ alert(middleName);
 document.write(middleName); */
 
 /* task5
-let person = (lastName + " " + firstName + " " + middleName);
-console.log(person); */
-
+let person = lastName + " " + firstName + " " + middleName;
+console.log(person);
+*/
 
 /* task6  //Взять задание 4 и 5 и применить его к ФИО всех членов своей семьи.
-let person1 = (lastName + " " + firstName + " " + middleName);
+let person1 = lastName + " " + firstName + " " + middleName;
 console.log(person1); // не розумію це завдання
-let person2 = (lastName + " " + firstName + " " + middleName);
+let person2 = lastName + " " + firstName + " " + middleName;
 console.log(person2);
-let person3 = (lastName + " " + firstName + " " + middleName);
+let person3 = lastName + " " + firstName + " " + middleName;
 console.log(person3); */
 
 
